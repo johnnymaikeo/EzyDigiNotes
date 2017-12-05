@@ -43,49 +43,267 @@
     </div>
     <div class="ui grid" style="margin-top:50px;">
       <div class="sixteen wide column">
-        
+
         <div class="ui breadcrumb">
   <a class="section">Home</a>
   <i class="right chevron icon divider"></i>
-  <a class="section">User Administration</a>
+  <a class="section">Forms</a>
 </div>
-        
-        <h1 class="ui header">User Administration</h1>
+
+        <h1 class="ui header">Group Administration</h1>
         <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.</p>
       </div>
       <div class="sixteen wide column">
-        
+
                     <div class="ui fluid action input">
   <input type="text" placeholder="Search...">
   <div class="ui button">Search</div>
 </div>
-        
-        <br/>
 
-        <div class="ui right floated small primary labeled icon button" onclick="javascript: $('#modal-add-user').modal('show');">
-          <i class="user icon"></i> Add User
+        <br/>
+        <div class="ui right floated small primary labeled icon button" onclick="javascript: $('#modal-create-group').modal('show');">
+          <i class="users icon"></i> Create Group
         </div>
         <br/><br/>
+
         <table class="ui celled table">
+  <thead>
+    <tr>
+      <th></th>
+      <th>Id</th>
+      <th>Group Name</th>
+      <th>Description</th>
+      <th>Users</th>
+      <th>Forms</th>
+      <th>Active</th>
+      <th>Settings</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <div class="ui ribbon label red">New</div>
+      </td>
+      <td>4</td>
+      <td>Lorem ipsum dolor sit amet</td>
+      <td>Maecenas et sagittis tortor. Donec fringilla viverra tortor, nec aliquet ante iaculis a. Aliquam dapibus vestibulum erat tempus viverra</td>
+      <td>
+        <div class="ui labeled button" tabindex="0" data-content="Enable or Disable users to View and Edit form" onclick="javascript: $('#modal-form-users').modal('show');" >
+          <div class="ui button">
+            <i class="users icon"></i>
+          </div>
+          <a class="ui basic left pointing label">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4
+          </a>
+        </div>
+      </td>
+       <td>
+        <div class="ui labeled button" tabindex="0" data-content="Enable or Disable users to View and Edit form" onclick="javascript: $('#modal-forms').modal('show');" >
+          <div class="ui button">
+            <i class="table icon"></i>
+          </div>
+          <a class="ui basic left pointing label">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4
+          </a>
+        </div>
+      </td>
+      <td>
+      <div class="inline field">
+                  <div class="ui toggle checkbox">
+                    <input type="checkbox" tabindex="0" class="hidden" checked>
+                  </div>
+                </div>
+      </td>
+      <td>
+
+                        <button class="ui icon button" data-content="Edit Form Synchronization and View Settings" onclick="javascript: $('#modal-create-group').modal('show');"  >
+                  <i class="setting icon"></i>
+        </button>
+
+      </td>
+    </tr>
+<tr>
+      <td>
+        <div class="ui ribbon label red">New</div>
+      </td>
+      <td>3</td>
+      <td>Lorem ipsum dolor sit amet</td>
+      <td>Maecenas et sagittis tortor. Donec fringilla viverra tortor, nec aliquet ante iaculis a. Aliquam dapibus vestibulum erat tempus viverra</td>
+      <td>
+        <div class="ui labeled button" tabindex="0" data-content="Enable or Disable users to View and Edit form" onclick="javascript: $('#modal-form-users').modal('show');" >
+          <div class="ui button">
+            <i class="users icon"></i>
+          </div>
+          <a class="ui basic left pointing label">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4
+          </a>
+        </div>
+      </td>
+  <td>
+        <div class="ui labeled button" tabindex="0" data-content="Enable or Disable users to View and Edit form" onclick="javascript: $('#modal-forms').modal('show');" >
+          <div class="ui button">
+            <i class="table icon"></i>
+          </div>
+          <a class="ui basic left pointing label">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4
+          </a>
+        </div>
+      </td>
+      <td>
+      <div class="inline field">
+                  <div class="ui toggle checkbox">
+                    <input type="checkbox" tabindex="0" class="hidden" checked>
+                  </div>
+                </div>
+      </td>
+      <td>
+
+                    <button class="ui icon button" data-content="Edit Form Synchronization and View Settings" onclick="javascript: $('#modal-create-group').modal('show');"  >
+                  <i class="setting icon"></i>
+        </button>
+
+      </td>
+    </tr><tr>
+      <td>
+
+      </td>
+      <td>2</td>
+      <td>Lorem ipsum dolor sit amet</td>
+      <td>Maecenas et sagittis tortor. Donec fringilla viverra tortor, nec aliquet ante iaculis a. Aliquam dapibus vestibulum erat tempus viverra</td>
+      <td>
+        <div class="ui labeled button" tabindex="0" data-content="Enable or Disable users to View and Edit form" onclick="javascript: $('#modal-form-users').modal('show');" >
+          <div class="ui button">
+            <i class="users icon"></i>
+          </div>
+          <a class="ui basic left pointing label">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4
+          </a>
+        </div>
+      </td>
+    <td>
+        <div class="ui labeled button" tabindex="0" data-content="Enable or Disable users to View and Edit form" onclick="javascript: $('#modal-forms').modal('show');" >
+          <div class="ui button">
+            <i class="table icon"></i>
+          </div>
+          <a class="ui basic left pointing label">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4
+          </a>
+        </div>
+      </td>
+      <td>
+      <div class="inline field">
+                  <div class="ui toggle checkbox">
+                    <input type="checkbox" tabindex="0" class="hidden" checked>
+                  </div>
+                </div>
+      </td>
+      <td>
+
+            <button class="ui icon button" data-content="Edit Form Synchronization and View Settings" onclick="javascript: $('#modal-create-group').modal('show');"  >
+                  <i class="setting icon"></i>
+        </button>
+
+      </td>
+    </tr><tr>
+      <td>
+
+      </td>
+      <td>1</td>
+      <td>Lorem ipsum dolor sit amet</td>
+      <td>Maecenas et sagittis tortor. Donec fringilla viverra tortor, nec aliquet ante iaculis a. Aliquam dapibus vestibulum erat tempus viverra</td>
+      <td>
+        <div class="ui labeled button" tabindex="0" data-content="Enable or Disable users to View and Edit form" onclick="javascript: $('#modal-form-users').modal('show');">
+          <div class="ui button">
+            <i class="users icon"></i>
+          </div>
+          <a class="ui basic left pointing label">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4
+          </a>
+        </div>
+      </td>
+    <td>
+        <div class="ui labeled button" tabindex="0" data-content="Enable or Disable users to View and Edit form" onclick="javascript: $('#modal-forms').modal('show');" >
+          <div class="ui button">
+            <i class="table icon"></i>
+          </div>
+          <a class="ui basic left pointing label">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4
+          </a>
+        </div>
+      </td>
+      <td>
+      <div class="inline field">
+                  <div class="ui toggle checkbox">
+                    <input type="checkbox" tabindex="0" class="hidden" checked>
+                  </div>
+                </div>
+      </td>
+      <td>
+
+<button class="ui icon button" data-content="Edit Form Synchronization and View Settings" onclick="javascript: $('#modal-create-group').modal('show');"  >
+                  <i class="setting icon"></i>
+        </button>
+
+      </td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><th colspan="8">
+      <div class="ui right floated pagination menu">
+        <a class="icon item">
+          <i class="left chevron icon"></i>
+        </a>
+        <a class="item">1</a>
+        <a class="item">2</a>
+        <a class="item">3</a>
+        <a class="item">4</a>
+        <a class="icon item">
+          <i class="right chevron icon"></i>
+        </a>
+      </div>
+    </th>
+  </tr></tfoot>
+</table>
+
+
+        </div>
+        </div>
+        </div>
+
+
+      <div class="ui modal" id="modal-form-users">
+      <i class="close icon"></i>
+      <div class="header">
+        Lorem ipsum dolor sit amet
+      </div>
+      <div class="content">
+
+                      <div class="ui header">How it works?</div>
+              <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.</p>
+            <br/>
+            <div class="ui fluid action input">
+  <input type="text" placeholder="Search...">
+  <div class="ui button">Search</div>
+</div>
+
+            <br/>
+
+
+
+         <table class="ui celled table">
           <thead>
             <tr>
               <th>Level</th>
-              <th>#</th>
               <th>User Information</th>
               <th>E-mail</th>
               <th>Telephone</th>
-              <th>Groups</th>
-              <th>Active</th>
-              <th>Edit</th>
+              <th>Access</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>
                 <div class="ui ribbon label red">Administrator</div>
-              </td>
-              <td>
-                1
               </td>
               <td>
                 <h4 class="ui image header">
@@ -100,36 +318,18 @@
               <td>lena.email@gmail.com</td>
               <td>(801) 677-0099</td>
               <td>
-
-                <div class="ui left labeled button" tabindex="0" data-content="Change user access to live forms">
-                  <a class="ui basic label" onclick="javascript: $('#modal-user-forms').modal('show');">
-          15
-        </a>
-                  <div class="ui icon button" onclick="javascript: $('#modal-user-forms').modal('show');">
-                    <i class="users icon"></i>
-                  </div>
-                </div>
-              </td>
-              <td>
                 <div class="inline field">
                   <div class="ui toggle checkbox">
                     <input type="checkbox" tabindex="0" class="hidden" checked>
                   </div>
                 </div>
               </td>
-              <td>
-                <button class="ui icon button" data-content="Edit User Information" onclick="javascript: $('#modal-user-information').modal('show');"  >
-                  <i class="edit icon"></i>
-                </button>
-              </td>
             </tr>
             <tr>
               <td>
                 <div class="ui ribbon label red">Administrator</div>
               </td>
-              <td>
-                2
-              </td>
+
               <td>
                 <h4 class="ui image header">
                   <img src="https://semantic-ui.com/images/avatar2/small/matthew.png" class="ui mini rounded image">
@@ -143,35 +343,17 @@
               <td>lena.email@gmail.com</td>
               <td>(801) 677-0099</td>
               <td>
-                <div class="ui left labeled button" tabindex="0" data-content="Change user access to live forms">
-                  <a class="ui basic label" onclick="javascript: $('#modal-user-forms').modal('show');">
-          15
-        </a>
-                  <div class="ui icon button" onclick="javascript: $('#modal-user-forms').modal('show');">
-                    <i class="users icon"></i>
-                  </div>
-                </div>
-
-              </td>
-              <td>
                 <div class="inline field">
                   <div class="ui toggle checkbox">
                     <input type="checkbox" tabindex="0" class="hidden" checked>
                   </div>
-              </td>
-              <td>
-                <button class="ui icon button" data-content="Edit User Information" onclick="javascript: $('#modal-user-information').modal('show');">
-  <i class="edit icon"></i>
-</button>
               </td>
             </tr>
             <tr>
               <td>
                 User
               </td>
-              <td>
-                3
-              </td>
+
               <td>
                 <h4 class="ui image header">
                   <img src="https://semantic-ui.com/images/avatar2/small/lindsay.png" class="ui mini rounded image">
@@ -184,38 +366,20 @@
               </td>
               <td>lena.email@gmail.com</td>
               <td>(801) 677-0099</td>
-              <td>
 
-                <div class="ui left labeled button" tabindex="0" data-content="Change user access to live forms">
-                  <a class="ui basic label" onclick="javascript: $('#modal-user-forms').modal('show');">
-          4
-        </a>
-                  <div class="ui icon button" onclick="javascript: $('#modal-user-forms').modal('show');">
-                    <i class="users icon"></i>
-                  </div>
-                </div>
-
-              </td>
               <td>
                 <div class="inline field">
                   <div class="ui toggle checkbox">
                     <input type="checkbox" tabindex="0" class="hidden" checked>
                   </div>
               </td>
-              <td>
 
-                <button class="ui icon button" data-content="Edit User Information" onclick="javascript: $('#modal-user-information').modal('show');">
-  <i class="edit icon"></i>
-</button>
-              </td>
             </tr>
             <tr>
               <td>
                 User
               </td>
-              <td>
-                4
-              </td>
+
               <td>
                 <h4 class="ui image header">
                   <img src="https://semantic-ui.com/images/avatar2/small/mark.png" class="ui mini rounded image">
@@ -228,18 +392,7 @@
               </td>
               <td>lena.email@gmail.com</td>
               <td>(801) 677-0099</td>
-              <td>
 
-                <div class="ui left labeled button" tabindex="0" data-content="Change user access to live forms">
-                  <a class="ui basic label" onclick="javascript: $('#modal-user-forms').modal('show');">
-          3
-        </a>
-                  <div class="ui icon button" onclick="javascript: $('#modal-user-forms').modal('show');">
-                    <i class="users icon"></i>
-                  </div>
-                </div>
-
-              </td>
               <td>
                 <div class="inline field">
                   <div class="ui toggle checkbox">
@@ -247,11 +400,7 @@
                   </div>
                 </div>
               </td>
-              <td>
-                <button class="ui icon button" data-content="Edit User Information" onclick="javascript: $('#modal-user-information').modal('show');">
-  <i class="edit icon"></i>
-</button>
-              </td>
+
             </tr>
 
           </tbody>
@@ -274,67 +423,23 @@
             </tr>
           </tfoot>
         </table>
-        </div>
-        </div>
-        </div>
 
 
-        <!-- modal add user -->
+      </div>
+      <div class="actions">
+        <div class="ui black deny button">
+          Close
+        </div>
 
-        <div class="ui modal" id="modal-add-user">
+      </div>
+    </div>
+
+
+
+  <div class="ui modal" id="modal-forms">
           <i class="close icon"></i>
           <div class="header">
-            Add User
-          </div>
-          <div class="image content">
-            <div class="ui medium image">
-              <img src="https://semantic-ui.com/images/avatar/large/chris.jpg">
-            </div>
-            <div class="description">
-              <div class="ui header">How it works?</div>
-              <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.</p>
-              <div class="ui left fluid icon input">
-                <input type="text" placeholder="Type user email address">
-                <i class="mail outline icon left"></i>
-              </div>
-              <br/>
-              <label>User Level</label>
-              <div class="field">
-                <select class="ui search dropdown" name="">
-                  <option value="0">User</option>
-                  <option value="1">Administrator</option>
-                </select>
-              </div>
-              <br/>
-              <label>Select a group</label>
-              <div class="field">
-
-                  <select class="ui search dropdown" name="">
-                    <option value="0">Group #1</option>
-                    <option value="1">Group #2</option>
-                    <option value="1">Group #3</option>
-                  </select>
-                </div>
-            </div>
-          </div>
-          <div class="actions">
-            <div class="ui black deny button">
-              Cancel
-            </div>
-            <div class="ui positive right labeled icon button">
-              Send Invitation
-              <i class="checkmark icon"></i>
-            </div>
-          </div>
-        </div>
-
-
-        <!-- modal forms access -->
-
-        <div class="ui modal" id="modal-user-forms">
-          <i class="close icon"></i>
-          <div class="header">
-            Manage user groups
+            Manage Access to Forms
           </div>
           <div class="content">
               <div class="ui header">How it works?</div>
@@ -344,15 +449,15 @@
   <input type="text" placeholder="Search...">
   <div class="ui button">Search</div>
 </div>
-            
+
             <br/>
-            
-            
+
+
             <table class="ui celled table ">
               <thead>
                 <tr>
                   <th>Id</th>
-                  <th>Group Name</th>
+                  <th>Form Name</th>
                   <th>Short Description</th>
                   <th>Access</th>
                 </tr>
@@ -428,63 +533,49 @@
         </div>
 
 
-        <!-- modal edit user information -->
 
-        <div class="ui modal" id="modal-user-information">
-          <i class="close icon"></i>
-          <div class="header">
-            John Doe
-          </div>
-          <div class="image content">
-            <div class="ui medium image">
-              <img src="https://semantic-ui.com/images/avatar/large/chris.jpg">
-            </div>
-            <div class="description">
-              
-              <div class="ui header">How it works?</div>
+  <div class="ui modal" id="modal-create-group">
+  <i class="close icon"></i>
+  <div class="header">
+    Create Group
+  </div>
+  <div class="content">
+    <div class="description">
+      <div class="ui header">How it works?</div>
               <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.</p>
-              
-              <h4 class="ui header">
-                  <div class="content">
-                    845 Sherbrooke St W
-                    <div class="sub header">Montreal, QC<br/>H3A 0G4</div>
-                  </div>
-                </h4>
+    </div>
+    <br/>
+    <form class="ui form">
+  <div class="field">
+    <label>Group Name</label>
 
-              
-              <form class="ui form">
-                <div class="field">
-                  <label>E-mail</label>
-                  <input type="text" name="first-name" placeholder="john.doe@gmail.com">
-                </div>
-                <div class="field">
-                  <label>Phone Number</label>
-                  <input type="text" name="last-name" placeholder="(801) 789-1235">
-                </div>
-                <div class="field">
-                  <label>User Level</label>
-                  <select class="ui search dropdown" name="">
-                    <option value="0">User</option>
-                    <option value="1">Administrator</option>
-                  </select>
-                </div>
-              </form>
-              
-            </div>
-          </div>
-          <div class="actions">
-            <div class="ui black deny button">
-              Cancel
-            </div>
-            <div class="ui positive right labeled icon button">
-              Save
-              <i class="checkmark icon"></i>
-            </div>
-          </div>
-        </div>
+      <div class="field">
+        <input type="text" name="shipping[first-name]" placeholder="Group Name">
+      </div>
+    <div class="field">
+    <label>Short Description</label>
+    <textarea></textarea>
+  </div>
+
+  </div>
+    </form>
+
+  </div>
+  <div class="actions">
+    <div class="ui black deny button">
+      Cancel
+    </div>
+    <div class="ui positive right labeled icon button">
+      Create
+      <i class="checkmark icon"></i>
+    </div>
+  </div>
+</div>
 
   <br/>
-   <div class="ui inverted vertical footer segment">
+
+
+ <div class="ui inverted vertical footer segment">
    <br/><br/><br/>
     <div class="ui container">
       <div class="ui stackable inverted divided equal height stackable grid">
@@ -514,13 +605,15 @@
     </div>
    <br/><br/><br/>
   </div>
-  
+
 </body>
 <script>
   $('.ui.dropdown').dropdown();
   $('.ui.checkbox').checkbox();
   $('.ui.icon.button').popup();
   $('.ui.left.labeled.button').popup();
+  $('.ui.labeled.button').popup();
+
 </script>
 
 </html>

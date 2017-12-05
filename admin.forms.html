@@ -27,6 +27,7 @@
           <i class="dropdown icon"></i>
           <div class="menu">
             <a class="item" href="admin.users.html">Users</a>
+            <a class="item" href="admin.groups.html">Groups</a>
             <a class="item" href="admin.forms.html">Forms</a>
           </div>
         </div>
@@ -80,7 +81,7 @@
       <th>Id</th>
       <th>Name</th>
       <th>Description</th>
-      <th>Users</th>
+      <th>Access Groups</th>
       <th>Active</th>
       <th>Settings</th>
     </tr>
@@ -253,7 +254,77 @@
 </div>
             
             <br/>
+
+
+            <table class="ui celled table ">
+              <thead>
+                <tr>
+                  <th>Id</th>
+                  <th>Group Name</th>
+                  <th>Short Description</th>
+                  <th>Access</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Vestibulum tortor quam</td>
+                  <td>Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante</td>
+                  <td>
+                    <div class="inline field">
+                      <div class="ui toggle checkbox">
+                        <input type="checkbox" tabindex="0" class="hidden" checked>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Pellentesque habitant morbi</td>
+                  <td>Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante</td>
+                  <td>
+                    <div class="inline field">
+                      <div class="ui toggle checkbox">
+                        <input type="checkbox" tabindex="0" class="hidden" checked>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Donec eu libero</td>
+                  <td>Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante</td>
+                  <td>
+                    <div class="inline field">
+                      <div class="ui toggle checkbox">
+                        <input type="checkbox" tabindex="0" class="hidden">
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th colspan="4">
+                    <div class="ui right floated pagination menu">
+                      <a class="icon item">
+          <i class="left chevron icon"></i>
+        </a>
+                      <a class="item">1</a>
+                      <a class="item">2</a>
+                      <a class="item">3</a>
+                      <a class="item">4</a>
+                      <a class="icon item">
+          <i class="right chevron icon"></i>
+        </a>
+                    </div>
+                  </th>
+                </tr>
+              </tfoot>
+            </table>
+
         
+        <!--
          <table class="ui celled table">
           <thead>
             <tr>
@@ -387,7 +458,7 @@
             </tr>
           </tfoot>
         </table>
-        
+        -->
         
       </div>
       <div class="actions">
